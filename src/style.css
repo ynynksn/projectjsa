@@ -191,11 +191,70 @@
     background-color: #212529;
     margin-top: 50px;
   }
-  
+  .seperator3{
+    padding-top: 330px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+    color: #FFF6C3;
+    width: 100%;
+    height: 150px;
+    background-color: #212529;
+    margin-top: 50px;
+  }
+  .fi_content1{
+    position: relative;
+    margin-top: -850px;
+    width: 800px;
+    height: 350px;
+    background-color: #212529;
+    margin-left: 38%;
+    border-radius: 30px;
+  }
+  #chaubui{
+    width: 180px;
+    border-radius: 50%;
+    margin-top: 85px;
+    margin-left: 85px;
+  }
+  .username{
+    padding-left: 300px;
+    margin-top: -185px;
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .feedback_content{
+    width: 400px;
+    margin-left: 300px;
+    font-weight: 100;
+    margin-top: -10px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .rating{
+    font-weight: 300;
+    margin-left: 300px;
+    margin-top: 17px;
+  }
+  .fi_content2{
+    position: relative;
+    margin-top: 50px;
+    width: 800px;
+    height: 350px;
+    background-color: #212529;
+    margin-left: 6%;
+    border-radius: 30px;
+  }
+  #brandon{
+    width: 180px;
+    border-radius: 50%;
+    margin-top: 85px;
+    margin-left: 85px;
+  }
   /**
   * ! Shop items styles are here
   **/
-  
   .shop {
     display: grid;
     grid-template-columns: repeat(4, 223px);
@@ -224,13 +283,16 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     width: 260px;
-   
     border-radius: 30px;
+    transition: 0.5s;
+  }
+  .item:hover{
+    background: #212529;
   }
   .item_img{
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 30px;
+    border-radius: 20px;
   }
   .details {
     display: flex;
