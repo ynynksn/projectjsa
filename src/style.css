@@ -7,6 +7,7 @@
   
   body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #FFF6C3;
   }
   
   i {
@@ -47,9 +48,11 @@
     left: 0;
   }
   .navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #212529;
     height: 95px;
     flex-direction: row;
-    background-color:#850000 ;
     color: #FFF6C3;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -189,10 +192,9 @@
     width: 100%;
     height: 150px;
     background-color: #212529;
-    margin-top: 50px;
   }
   .seperator3{
-    padding-top: 330px;
+    padding-top: 160px;
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
@@ -255,14 +257,30 @@
   /**
   * ! Shop items styles are here
   **/
+  .seperator4{
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+    color: #FFF6C3;
+    height: 150px;
+    background-color: #212529;
+    margin-top: 50px;
+  }
   .shop {
+    padding-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
     display: grid;
     grid-template-columns: repeat(4, 223px);
     gap: 100px;
     justify-content: center;
     position: relative;
-    z-index: 1000;
-    margin-top: -750px;
+    z-index: 1000000;
+    background-color: #212529;
   }
   
   @media (max-width: 100px) {
@@ -283,8 +301,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     width: 260px;
-    border-radius: 30px;
     transition: 0.5s;
+    border: solid 1px #FFF6C3;
+    border-radius: 20px;
   }
   .item:hover{
     background: #212529;
@@ -292,7 +311,8 @@
   .item_img{
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 20px;
+    border: solid 0.5px #FFF6C3;
+    border-radius: 10px;
   }
   .details {
     display: flex;
@@ -341,7 +361,7 @@
   }
   .footer {
     position: fixed;
-    z-index: 10000;
+    z-index: 100000000;
     left: 0;
     bottom: 0;
     width: 100%;
