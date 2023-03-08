@@ -48,8 +48,8 @@
     left: 0;
   }
   .navbar {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: #212529;
     height: 95px;
     flex-direction: row;
@@ -259,8 +259,8 @@
   **/
   .seperator4{
     margin-top: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
@@ -272,8 +272,8 @@
   }
   .shop {
     padding-bottom: 100px;
-    margin-right: 20px;
-    margin-left: 20px;
+      margin-right: 5px;
+      margin-left: 5px;
     display: grid;
     grid-template-columns: repeat(4, 223px);
     gap: 100px;
@@ -311,7 +311,6 @@
   .item_img{
     margin-left: 20px;
     margin-top: 20px;
-    border: solid 0.5px #FFF6C3;
     border-radius: 10px;
   }
   .details {
